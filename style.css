@@ -1,0 +1,63 @@
+/*Default style*/
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Descendent Selectors*/
+h1{
+    font-weight: 400;
+    margin-left: 4rem;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:blanchedalmond;
+}
+nav{
+    position:absolute;
+    top: 1rem;
+    right: 2rem;
+    width: 40rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color:crimson;
+    transition-delay: 1s;
+}
+/*main-content*/
+#main-content{
+    display: flex;
+    margin: 2rem 15rem;
+    margin-right: 10rem;
+}
+.amaninfo img{
+    height: 15rem;
+    width: 14rem;
+}
+.amaninfo h2{
+    position: relative;
+    font-weight: 900;
+    font-family: sans-serif;
+    color:dimgray;
+    font-size: 25px;
+}
+.aboutme {
+    width: 75%;
+    padding-left: 8rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: darkslategrey;
+}
