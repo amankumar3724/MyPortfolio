@@ -48,11 +48,12 @@ a:hover{
     width: 14rem;
 }
 .amaninfo h2{
-    position: relative;
+
     font-weight: 900;
     font-family: sans-serif;
     color:dimgray;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
 }
 .aboutme {
     width: 75%;
@@ -60,4 +61,129 @@ a:hover{
     font-size: 18px;
     font-weight: 700;
     color: darkslategrey;
+}
+/* Social Icons */
+.social .btn{
+    color: aliceblue;
+    background-color:blueviolet;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.fab{
+    padding: 0.5rem 0.6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: darkgray;
+}
+.fa-github:hover{
+    color: black;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: darkblue;
+}
+.fa-twitter-square:hover{
+    color: skyblue;
+}
+.fa-instagram:hover{
+    color: palevioletred;
+}
+.fa-facebook-square:hover{
+    color: blue;
+}
+/*Skills Section*/
+#Skillsheading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: orangered;
+    margin: 4rem;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 1rem auto;
+    height: 20rem;
+}
+.skills-container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.javascript{
+    background-color: yellow;
+    height: 18rem;
+    width: 33.3%;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.react{
+    background-color: #61DBFB;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    width: 33.3%;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.node{
+    background-color: #3C873A;
+    padding: 1rem 2rem;
+    width: 33.3%;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skillicon{
+    font-size: 5rem;
+    color: black;
+}
+/*Educational Section*/
+.education-heading{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: orangered;
+    margin: 4rem;
+    margin-bottom: 2rem;
+}
+.educational-qualification{
+    display: flex;
+    justify-content: center;
+}
+.collegeicon{
+    flex-direction: row;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.college h2{
+    flex-direction: row;
+    display: inline-block;
+    font-weight: 500;
+    color:darkslategrey;
+}
+.college p{
+    margin-top: 0.3rem;
+    font-size: 18px;
+}
+.college{
+    background-color: #ffb6c1;
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+    width: 80%;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
