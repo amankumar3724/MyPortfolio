@@ -187,3 +187,136 @@ a:hover{
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+/* Project Section */
+.project-heading{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: orangered;
+    margin: 4rem;
+}
+.project-qualification{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 1rem auto;
+    height: 20rem;
+}
+.project-qualification h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.project1{
+    background-color: yellow;
+    height: 18rem;
+    width: 20%;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project2{
+    background-color: yellow;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    width: 20%;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project3{
+    background-color: yellow;
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    width: 20%;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project4{
+    background-color: yellow;
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+    width: 20%;
+    border-radius: 0.9rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project-icon-1{
+    font-size: 5rem;
+    color: black;
+}
+.project-icon-2{
+    font-size: 4rem;
+    color: black;
+}
+/* Contact Section */
+.contact-heading{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: orangered;
+    margin: 4rem;
+    margin-bottom: 2rem;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f1ebeb;
+    padding: 20px;
+    width: 80%;
+    margin-left: 6.5rem;
+  }
+
+  /* Footer Section */
+  #footer-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 6rem;
+    margin-top: 1rem;
+  }
+  #footer-container p{
+    padding: .5rem;
+    color: white;
+    display: inline-block;
+  }
+  
